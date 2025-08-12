@@ -1,0 +1,27 @@
+.container-HowItStarted{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 0 4rem 0rem;       
+}
+
+.container-HowItStarted h1{
+    font-size: 64px;
+    margin: 0;
+
+}
+
+.container-HowItStarted p{
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+}
+
+span{
+    color: #15FF8A;
+}
+
+.blueSpan{
+    color: #0077FF;
+}
+

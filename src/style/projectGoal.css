@@ -1,0 +1,86 @@
+.projectGoal .title{
+    text-align: center;
+}
+
+.projectGoal h1{
+    font-size: 64px;
+}
+
+.container-ProjectGoal p{
+    font-family: 'Poppins', sans-serif;
+}
+
+.projectGoal span{
+    color: #15FF8A;
+}
+
+.text-ProjectGoal{
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5rem;
+}
+.text-ProjectGoal p{
+    font-size: 24px;
+    text-align: right;
+    
+}
+.img-projectGoal {
+    width: 30%;
+}
+
+.img-projectGoal img{
+    width: 100%;
+}
+
+.paragraph-ProjectGoal{
+    margin-right: 2rem;
+}
+
+.float{
+    animation: float 4s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.ContactSection{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 3%;
+    padding-bottom: 5rem;
+}
+
+.ContactSection p{
+    font-size: 32px;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+}
+
+.authorImage-Container{
+    overflow: hidden; /* garante que o border-radius corte a imagem */
+    border-radius: 30px; /* cantos arredondados */
+    margin-right: 6%;
+}
+
+.authorImage-Container img{
+  width: 100%;
+  object-fit: cover; /* mantém a proporção e preenche */
+  border-radius: inherit; /* herda o mesmo arredondamento do container */
+}
+
+.link-SocialMidia img{
+    width: 60px;
+}

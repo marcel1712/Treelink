@@ -1,0 +1,13 @@
+body{
+    background-color: #31334A;
+    color: white;
+}
+
+.homePage-Container{
+max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
