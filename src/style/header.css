@@ -1,0 +1,16 @@
+.Header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px solid #161726;
+}
+
+.returnArrow img{
+    width: 10%;
+}
+
+.Header h1{
+    font-family: 'Raleway', sans-serif;
+    color: #15FF8A;
+    font-size: 48px;
+}

@@ -2,6 +2,7 @@ import React from "react";
 import whiteLogo from '../imgs/white-Logo.png'
 import svgDownArrow from '../imgs/downarrow.svg'
 import HeroSectionStyle from '../style/heroSection.css'
+import TreeBuilder from './treebuilder'
 
 export default () => {
     return(
@@ -13,7 +14,7 @@ export default () => {
                 <nav className="center-Herosection">
                     <h1>Crie <span>árvores</span><br></br> genealógicas <span>criativas</span></h1>
                     <nav className="button-Herosection">
-                        <a href="">
+                        <a href="/Tree">
                         <p>Começar agora</p>
                         </a>
                     </nav>
