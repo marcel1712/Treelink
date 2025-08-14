@@ -7,11 +7,12 @@
     flex-direction: column;
     align-items: center;
     border-radius: 0 0 2rem 2rem;
-
+    justify-content: center;
     background: linear-gradient(90deg, #00d084, #003366);
     background-size: 150% 150%;
 
     animation: gradientAnimation 12s ease infinite;
+
 }
 
 @keyframes gradientAnimation {
@@ -38,6 +39,7 @@
     flex-direction: column;
     color: #FFFFFF;
     margin-top: 2%;
+    gap: 2rem;
 }
 
 .center-Herosection span{
@@ -52,11 +54,15 @@
 
 .button-Herosection{
     background-color: #0077FF;
-    width: 26vh;
+    width: 40%;
     text-align: center;
     font-size: 20px;
     border-radius: 3rem;
+    display: flex;
     font-weight: bolder;
+    height: 7vh;
+    justify-content: center;
+    align-items: center;
 }
 
 .button-Herosection:hover{

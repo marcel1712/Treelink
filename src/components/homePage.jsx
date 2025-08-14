@@ -1,7 +1,7 @@
 import HeroSection from './heroSection'
 import AboutTreeLink from './aboutTreeLink'
 import HowItStarted from './howItStarted'
-import ProjectGoal from './ProjectGoal'
+import ProjectGoal from './projectGoal'
 import Footer from './footer'
 
 import Sytle from '../style/homePage.css'
