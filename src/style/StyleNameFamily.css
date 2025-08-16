@@ -1,0 +1,13 @@
+.FamilyElement{
+    background-color: #15FF8A;
+    width: 375px;
+    height: 60px;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bolder;
+    color: #31334A;
+}

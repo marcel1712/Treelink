@@ -1,0 +1,38 @@
+.addButton{
+    display: flex;
+    background-color: #17de7b2a;
+    width: 375px;
+    height: 60px;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 1rem;
+    border: 1px solid #15FF8A;
+    gap: 1rem;
+}
+
+.addButton:hover{
+    background-color: #53da96;
+    transition: background-color 1s ease, color 1s ease;
+    color: #161726;
+    cursor: pointer;
+}
+
+.addButton:hover p{
+    color: #31334A ;
+}
+.addButton img{
+    width: 24px;
+    height: 24px;
+    margin-left: 1rem;
+}
+
+.addButton p{
+    font-size: 20px;
+    color: #15FF8A;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    text-align: left;
+}
+
+

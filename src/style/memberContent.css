@@ -1,0 +1,12 @@
+.MemberContent{
+    margin-top: 1rem;
+}
+
+.memberList li{
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+}
+.memberList{
+    margin-top: 1rem;
+}

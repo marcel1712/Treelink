@@ -1,0 +1,12 @@
+.Container-familySection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+
+}
+.Title-familySection h1{
+    text-align: center;
+    font-size: 32px;
+    font-family: 'Poppins', sans-serif;
+}
